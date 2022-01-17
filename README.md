@@ -10,4 +10,7 @@
         let actionSheetVC = ActionSheetController(title: self.title ?? "", contentView: pickView)
         actionSheetVC.delegate = self
         vc?.present(actionSheetVC, animated: true, completion: nil)
+        
+       //注意使用了snpkit
+       //app_screen_width,app_screen_height是屏幕宽高
 ```
